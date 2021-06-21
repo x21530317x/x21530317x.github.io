@@ -1,1 +1,2 @@
-# x21530317x.github.io
+# http://github.com - automatic!
+[GitHub](http://github.com)
