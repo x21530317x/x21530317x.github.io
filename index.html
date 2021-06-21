@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -13,10 +14,10 @@
             <div id="header">
                 <h1>自我介紹</h1>
             </div>
-
             <div class="box2">
                 <h2 class="image"></h2>
                 <h1>朋友</h1>
+                <hr>
                 <ol>
                     <li>
                         派大星
@@ -52,9 +53,21 @@
                     <p>海超人、大洋遊俠和蝦霸</p>
                 </ul>
             </div>
-
+            <div class="box3">
+                <label for="content">比奇堡顛倒日:</label>
+                <input type="text" name="content" id="content" />
+                <div class="tip">
+                    <button id="button" onclick="get_reverse()" class="button">輸入</button>
+                    <br>
+                    <span class="tiptext">比奇堡顛倒日:輸入字串將會把文字全部顛倒</span>
+                </div>
+                <div id="result">
+                </div>
+            </div>
+            <?php echo "這裡一個表格有英雄的名字跟其他細節資料"; ?>
         </div>
     </div>
 </body>
+<script src="./main.js"></script>
 
 </html>
